@@ -1,0 +1,49 @@
+{
+  "sessions": [
+    {
+      "session_id": "session-001",
+      "game": "Breakout",
+      "created_at": "2024-01-15T10:30:00Z",
+      "total_episodes": 1000,
+      "best_reward": 385.5,
+      "final_epsilon": 0.01,
+      "status": "completed"
+    },
+    {
+      "session_id": "session-002",
+      "game": "Pong",
+      "created_at": "2024-01-16T14:45:00Z",
+      "total_episodes": 800,
+      "best_reward": 21.0,
+      "final_epsilon": 0.05,
+      "status": "completed"
+    },
+    {
+      "session_id": "session-003",
+      "game": "SpaceInvaders",
+      "created_at": "2024-01-17T09:15:00Z",
+      "total_episodes": 1200,
+      "best_reward": 1250.0,
+      "final_epsilon": 0.01,
+      "status": "completed"
+    },
+    {
+      "session_id": "session-004",
+      "game": "Breakout",
+      "created_at": "2024-01-18T16:00:00Z",
+      "total_episodes": 500,
+      "best_reward": 210.0,
+      "final_epsilon": 0.1,
+      "status": "stopped"
+    },
+    {
+      "session_id": "session-005",
+      "game": "Pong",
+      "created_at": "2024-01-19T11:30:00Z",
+      "total_episodes": 1500,
+      "best_reward": 21.0,
+      "final_epsilon": 0.01,
+      "status": "completed"
+    }
+  ]
+}

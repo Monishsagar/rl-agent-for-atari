@@ -1,0 +1,66 @@
+{
+  "session_id": "session-003",
+  "game": "SpaceInvaders",
+  "env_id": "SpaceInvadersNoFrameskip-v4",
+  "hyperparameters": {
+    "total_timesteps": 2000000,
+    "learning_rate": 0.0001,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.01,
+    "epsilon_decay": 0.9995,
+    "batch_size": 32,
+    "gamma": 0.995
+  },
+  "episode_rewards": [
+    { "episode": 1, "reward": 30.0, "timestamp": "2024-01-17T09:15:00Z" },
+    { "episode": 100, "reward": 125.0, "timestamp": "2024-01-17T09:45:00Z" },
+    { "episode": 200, "reward": 245.0, "timestamp": "2024-01-17T10:15:00Z" },
+    { "episode": 300, "reward": 380.0, "timestamp": "2024-01-17T10:45:00Z" },
+    { "episode": 400, "reward": 520.0, "timestamp": "2024-01-17T11:15:00Z" },
+    { "episode": 500, "reward": 665.0, "timestamp": "2024-01-17T11:45:00Z" },
+    { "episode": 600, "reward": 785.0, "timestamp": "2024-01-17T12:15:00Z" },
+    { "episode": 700, "reward": 890.0, "timestamp": "2024-01-17T12:45:00Z" },
+    { "episode": 800, "reward": 980.0, "timestamp": "2024-01-17T13:15:00Z" },
+    { "episode": 900, "reward": 1065.0, "timestamp": "2024-01-17T13:45:00Z" },
+    { "episode": 1000, "reward": 1135.0, "timestamp": "2024-01-17T14:15:00Z" },
+    { "episode": 1100, "reward": 1195.0, "timestamp": "2024-01-17T14:45:00Z" },
+    { "episode": 1200, "reward": 1250.0, "timestamp": "2024-01-17T15:15:00Z" }
+  ],
+  "epsilon_values": [
+    { "episode": 1, "epsilon": 1.0 },
+    { "episode": 200, "epsilon": 0.905 },
+    { "episode": 400, "epsilon": 0.819 },
+    { "episode": 600, "epsilon": 0.741 },
+    { "episode": 800, "epsilon": 0.670 },
+    { "episode": 1000, "epsilon": 0.606 },
+    { "episode": 1200, "epsilon": 0.548 }
+  ],
+  "loss_values": [
+    { "step": 5000, "loss": 3.25 },
+    { "step": 20000, "loss": 2.45 },
+    { "step": 50000, "loss": 1.65 },
+    { "step": 100000, "loss": 1.12 },
+    { "step": 150000, "loss": 0.78 },
+    { "step": 200000, "loss": 0.55 },
+    { "step": 250000, "loss": 0.42 },
+    { "step": 300000, "loss": 0.32 }
+  ],
+  "q_values": [
+    { "bin": "0-5", "count": 35 },
+    { "bin": "5-10", "count": 95 },
+    { "bin": "10-15", "count": 225 },
+    { "bin": "15-20", "count": 385 },
+    { "bin": "20-25", "count": 320 },
+    { "bin": "25-30", "count": 185 },
+    { "bin": "30-35", "count": 85 },
+    { "bin": "35-40", "count": 25 }
+  ],
+  "action_distribution": [
+    { "action": "NOOP", "probability": 0.03 },
+    { "action": "FIRE", "probability": 0.35 },
+    { "action": "RIGHT", "probability": 0.28 },
+    { "action": "LEFT", "probability": 0.26 },
+    { "action": "RIGHTFIRE", "probability": 0.04 },
+    { "action": "LEFTFIRE", "probability": 0.04 }
+  ]
+}

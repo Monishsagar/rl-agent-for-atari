@@ -1,0 +1,68 @@
+{
+  "session_id": "session-002",
+  "game": "Pong",
+  "env_id": "PongNoFrameskip-v4",
+  "hyperparameters": {
+    "total_timesteps": 500000,
+    "learning_rate": 0.00025,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay": 0.99,
+    "batch_size": 64,
+    "gamma": 0.99
+  },
+  "episode_rewards": [
+    { "episode": 1, "reward": -21.0, "timestamp": "2024-01-16T14:45:00Z" },
+    { "episode": 50, "reward": -18.5, "timestamp": "2024-01-16T15:00:00Z" },
+    { "episode": 100, "reward": -15.0, "timestamp": "2024-01-16T15:15:00Z" },
+    { "episode": 150, "reward": -12.0, "timestamp": "2024-01-16T15:30:00Z" },
+    { "episode": 200, "reward": -8.5, "timestamp": "2024-01-16T15:45:00Z" },
+    { "episode": 250, "reward": -5.0, "timestamp": "2024-01-16T16:00:00Z" },
+    { "episode": 300, "reward": -2.0, "timestamp": "2024-01-16T16:15:00Z" },
+    { "episode": 350, "reward": 2.5, "timestamp": "2024-01-16T16:30:00Z" },
+    { "episode": 400, "reward": 6.0, "timestamp": "2024-01-16T16:45:00Z" },
+    { "episode": 450, "reward": 10.5, "timestamp": "2024-01-16T17:00:00Z" },
+    { "episode": 500, "reward": 14.0, "timestamp": "2024-01-16T17:15:00Z" },
+    { "episode": 550, "reward": 16.5, "timestamp": "2024-01-16T17:30:00Z" },
+    { "episode": 600, "reward": 18.0, "timestamp": "2024-01-16T17:45:00Z" },
+    { "episode": 650, "reward": 19.5, "timestamp": "2024-01-16T18:00:00Z" },
+    { "episode": 700, "reward": 20.0, "timestamp": "2024-01-16T18:15:00Z" },
+    { "episode": 750, "reward": 20.5, "timestamp": "2024-01-16T18:30:00Z" },
+    { "episode": 800, "reward": 21.0, "timestamp": "2024-01-16T18:45:00Z" }
+  ],
+  "epsilon_values": [
+    { "episode": 1, "epsilon": 1.0 },
+    { "episode": 100, "epsilon": 0.366 },
+    { "episode": 200, "epsilon": 0.134 },
+    { "episode": 300, "epsilon": 0.078 },
+    { "episode": 400, "epsilon": 0.062 },
+    { "episode": 500, "epsilon": 0.055 },
+    { "episode": 600, "epsilon": 0.052 },
+    { "episode": 700, "epsilon": 0.051 },
+    { "episode": 800, "epsilon": 0.050 }
+  ],
+  "loss_values": [
+    { "step": 1000, "loss": 1.85 },
+    { "step": 5000, "loss": 1.42 },
+    { "step": 10000, "loss": 0.98 },
+    { "step": 20000, "loss": 0.65 },
+    { "step": 30000, "loss": 0.45 },
+    { "step": 40000, "loss": 0.32 },
+    { "step": 50000, "loss": 0.24 },
+    { "step": 60000, "loss": 0.18 }
+  ],
+  "q_values": [
+    { "bin": "-2-0", "count": 25 },
+    { "bin": "0-2", "count": 85 },
+    { "bin": "2-4", "count": 210 },
+    { "bin": "4-6", "count": 385 },
+    { "bin": "6-8", "count": 290 },
+    { "bin": "8-10", "count": 145 },
+    { "bin": "10-12", "count": 55 }
+  ],
+  "action_distribution": [
+    { "action": "NOOP", "probability": 0.02 },
+    { "action": "UP", "probability": 0.48 },
+    { "action": "DOWN", "probability": 0.50 }
+  ]
+}
